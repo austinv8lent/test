@@ -9,7 +9,7 @@
     "cross-fetch": "^3.0.5",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "react-router-dom": "5.2.0",
+    "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.0"
   },
   "scripts": {
@@ -19,6 +19,7 @@
     "docker:stop": "docker stop $(docker ps -q)",
     "docker:test": "docker run -t  thinkful-ed/zid-fe-project-flashcards-01-qualified npm test",
     "eject": "react-scripts eject",
+    "prestart": "",
     "start": "concurrently \"npm run start:server\" \"npm run start:react\"",
     "start:react": "react-scripts start",
     "start:server": "json-server ./data/db.json",
