@@ -1,23 +1,9 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
+import React from "react";
 
 function NotFound() {
   return (
-    <div>
-      <nav aria-label='breadcrumb'>
-        <ol className='breadcrumb'>
-          <li className='breadcrumb-item'>
-            <Link to='/'>
-              <i className='fas fa-home'></i> Home
-            </Link>
-          </li>
-        </ol>
-      </nav>
-      <div className=' card'>
-        <div className='NotFound text-danger card-body d-flex justify-content-center'>
-          <h1> Not Found</h1>
-        </div>
-      </div>
+    <div className="NotFound">
+      <h1>Not Found</h1>
     </div>
   );
 }
